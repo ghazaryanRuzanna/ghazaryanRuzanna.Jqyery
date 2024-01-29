@@ -1,0 +1,800 @@
+
+#button{
+    position: fixed;
+    background-color:  rgb(250, 114, 104);
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    right: 0;
+    border: none;
+
+}
+
+header{
+    /* background-image: ursl(../img/2.mp4); */
+    height: 90vh;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+}
+
+
+
+nav{
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+nav .nav-link{
+color: white !important 
+
+}
+
+
+
+/* header nav p{
+    display: none;
+} */
+header .icon {
+    width: 25px;
+}
+header #myVideo {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 90vh;
+}
+
+
+
+
+header .content{
+    position: absolute;
+    top: 35%;
+    
+}
+
+header .content h1{
+    font-size: 56px;
+    color: white;
+    font-size: 170px;
+    font-family: revert;
+    letter-spacing: 14px;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+    header .content h1{
+        font-size:52px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    header .content h1{
+        font: size 50px;
+    }
+}
+@media screen and (max-width: 900px){
+    header .content h1{
+        font-size:45px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    header .content h1{
+        font-size:40px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header .content h1{
+        font-size:35px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header .content h1{
+        font-size:30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header .content h1{
+        font-size:25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header .content h1{
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header .content h1{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header .content h1{
+        font-size:15px;
+    }
+}
+header .content p{
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 90%;
+}
+
+
+.section{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.active, 
+.section:nth-child(1){
+    opacity: 1;
+}
+
+
+
+
+
+/* -------------------------------section1------------------------------ */
+
+
+
+.sec1{
+    margin-top: 120px;
+}
+
+
+
+.sec1 h2{
+    font-size: 60px;
+    text-align: end;
+}
+
+.sec1 img{
+    width: 10%;
+    min-height: 14px;   
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
+.sec1 #imgdiv{
+    background-image: url(../img/1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.sec1 #imgdiv a{
+    line-height: 500px;
+}
+
+/* -------------------------------section2------------------------------ */
+
+.sec2{
+    padding: 15px;
+}
+
+.sec2 .sec2Div{
+    height: 25px;
+    width: 35px;
+    background-color: rgb(250, 114, 104) ;
+    color: white;
+    text-align: center;
+}
+
+.sec2 p{
+    font-size: x-large;
+}
+.sec2 button{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(250, 114, 104) ;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+
+.sec2 .nkar{
+    background-image: url(../img/office.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+/* -------------------------------section3------------------------------ */
+
+.sec3{
+    padding: 15px;
+    /* height: 40vh;  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    background-image:  linear-gradient(rgba(20, 2, 45, 0.8), rgba(38, 1, 54, 0.8)), url(../img/2.jpg)
+}
+
+.sec3 span{
+    font-size: 60px;
+    color: #5cdef2;
+    text-align: left;
+}
+.sec3 p{
+    font-size: larger;
+    color: aliceblue;
+
+}
+
+.sec3 h4{
+    color: aliceblue;
+}
+
+
+
+
+/* -------------------------------section4------------------------------ */
+
+
+.sec4{
+    margin-top: 35px;
+    /* padding-top:35px ; */
+}
+
+
+
+/* .sec4 img{
+    height: 40vh; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* background-image: url(../img/3.jpg); 
+    margin: 15px;
+} */
+
+
+.sec4 img{
+    width: 100%;
+}
+.sec4 .sec4Div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sec4 .sec4Div .overlay p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color:aliceblue;
+}
+.sec4 .overlay {
+    transition: 0.5s;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(32, 29, 29);
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.sec4 .sec4Div:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 80%;
+}
+.sec4 .col-12{
+    padding: 0 !important
+}
+/* -------------------------------section5------------------------------ */
+
+
+.sec5{
+    margin: 40px;
+}
+
+.sec5 .formDiv input, select{
+    border-radius: 0 !important;
+}
+
+.sec5 button{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(250, 114, 104) ;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+/* -------------------------------section6------------------------------ */
+
+
+.sec6{
+    /* height: 40vh;  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    background-image:  linear-gradient(rgba(20, 2, 45, 0.8), rgba(38, 1, 54, 0.8)), url(../img/2.jpg)
+
+}
+
+.sec6 p{
+    color: white;
+   
+}
+.sec6 .kojak{
+
+    color: rgb(248, 248, 248);
+    border: 2px solid rgb(255, 241, 241);
+
+}
+
+
+
+/* footer--------------------------------------- */
+
+footer img{
+    height: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer {
+    line-height: 30px;
+    margin-top: 45px;
+}
+
+
+
+
+
+/*PAGES-------------------------------------------- */
+
+
+.index2Sec .col-lg{
+    padding: 0 !important;
+
+}
+.index2Sec .sec4Div{
+    margin: 15px;
+}
+.index2header{
+    background-image:linear-gradient(rgba(37, 68, 114, 0.4), rgba(66, 75, 99, 0.4)),  url(../img/9.jpg);
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+
+
+.index2header   nav{
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+.index2header nav .nav-link{
+color: white !important 
+
+}
+
+.index2header .icon {
+    width: 25px;
+}
+
+.index2header .content{
+    position: absolute;
+    top: 35%;
+    
+}
+
+.index2header .content h1{
+    font-size: 35px;
+    font-family: revert;
+    letter-spacing: 14px;
+    color: white;
+    font-weight: 900;
+}
+
+.index2header .content p{
+    color: white;
+    font-size: 90%;
+}
+
+
+
+.index2Sec{
+    margin-top: 35px;
+    /* padding-top:15px ; */
+}
+
+
+
+/* .sec4 img{
+    height: 40vh; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* background-image: url(../img/3.jpg); 
+    margin: 15px;
+} */
+
+.index2Sec ul li{
+    display: inline-block;
+    list-style: none;
+}   
+.index2Sec ul li a{
+    text-decoration: none;
+    }
+.index2Sec img{
+    width: 100%;
+}
+
+.index2Sec .teqst p{
+    margin: 15px;
+    padding: 5px;
+    color: black;
+}
+.index2Sec .sec4Div .overlay p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color:aliceblue;
+}
+.index2Sec .overlay {
+    transition: 0.5s;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(32, 29, 29);
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.index2Sec .sec4Div:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 80%;
+}
+.index2Sec .col-12{
+    padding: 0 !important
+}
+
+
+
+
+
+.close i {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.bar {
+    display: block;
+    position: absolute;
+    top: 13px;
+    float: left;
+    width: 30px;
+    border-bottom: 4px solid #fff ;
+    transform: rotate(45deg);
+}
+
+.bar:first-child {
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
+footer #icon {
+    width: 25px;
+}
+
+
+
+/* portfolio------------------------- ------------------------------------------------------------
+----------------------------------------------------------*/
+.portfolioheader{
+    background-image:  url(../img/pagetitle.png);
+    height: 70vh;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+
+.portfolioheader nav{
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+.portfolioheader nav .nav-link{
+color: white !important ;
+
+}
+
+.portfolioheader .icon {
+    width: 25px;
+}
+
+
+
+
+.portfolioheader .content h1{
+    font-size: 55px;
+    font-family: revert;
+    /* letter-spacing: 14px; */
+    color: white;
+    font-weight: 900;
+}
+
+.portfolioheader .content p{
+    color: white;
+}
+
+
+/* section1-------------------------- */
+.portfoliosec1{
+    padding: 80px;
+}
+
+.portfoliosec1 .progress{
+    margin: 25px;
+    border-radius: 0 !important;
+}
+
+
+
+
+/* section----------------------------------2----------------------- */
+
+.portfoliosec2{
+    padding: 15px;
+}
+
+.portfoliosec2 #textDiv{
+    margin-left: 0;
+    background-color: rgb(229, 80, 80);
+    color: rgba(255, 253, 253, 0.9);
+}
+
+.portfoliosec2 #nkarDiv{
+    background-image: url(../img/ab23646.jpg);
+    height: 249px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.portfoliosec2 #textDiv1{
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
+.portfoliosec2 #nkarDiv1{
+    background-image: url(../img/ab23.jpg);
+    height: 249px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.portfoliosec2 #nkarDiv2{
+    background-image: url(../img/ab21.jpg);
+    height: 249px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.portfoliosec2 #textDiv2{
+    background-color: rgb(177, 80, 229);
+    color: rgba(255, 253, 253, 0.9);
+}
+
+.portfoliosec2 #nkarDiv3{
+    background-image: url(../img/ab254.jpg);
+    height: 249px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.portfoliosec2 #textDiv3{
+    background-color: rgb(80, 229, 162);
+    color: rgba(255, 253, 253, 0.9);
+}
+
+.portfoliosec2 .sec2Div{
+padding: 50px;
+box-sizing: border-box;
+}
+
+
+/* section3---------------------------------------- */
+
+.portfoliosec3 {
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    padding: 120px;
+    text-align: center;
+}
+
+.portfoliosec3 span{
+    font-size: 54px;
+}
+
+/* section4--------------------------------------- */
+.portfoliosec4{
+    padding: 15px;
+}
+.portfoliosec4 .col-12 {
+    padding: 0 !important
+}
+.portfoliosec4 .col{
+    margin: 30px;
+    padding: 0 !important;
+}
+.portfoliosec4 .sec4Div img {
+    width: 100%;
+    transition: 0.5s;
+}
+.portfoliosec4 .sec4Div{
+    position: relative;
+    overflow: hidden;
+}
+.portfoliosec4 .sec4Div  .overlay {
+    text-align: center;
+    transition: 0.5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+}
+.portfoliosec4 .sec4Div:hover .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    visibility: visible;
+    opacity: 1;
+}
+.portfoliosec4 .sec4Div:hover img{
+    transform: scale(1.2);
+}
+
+/* element --------------------------------------------------------- */
+
+.elementheader{
+    background-image: url(../img/pagetitle.png);
+    height: 90vh;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+
+nav{
+    background: rgba(0, 0, 0, 0.0) !important;
+    background-color: white !important;
+}
+nav .nav-link{
+    color: rgb(0, 0, 0) !important 
+
+}
+
+.elementheader h1{
+    color: rgb(255, 255, 255);
+    margin-top: 25%;
+    font-size: 90px;
+    margin-left: 45px;
+}
+
+.tab-link{
+    list-style: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all ease 0.5;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.tab-link:hover{
+    color: #c55151;
+    border-color: #999;
+}
+
+.tab-link.active{
+    color: #c55151;
+    border-color: #999;
+}
+
+.tab-span{
+    color: #999 ;
+}
+.tab-content{
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+.div-list .tab{
+    background-color: rgb(171, 171, 171);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.div-list .show{
+    color: white;
+}
+.tab {
+    border: 2px solid gainsboro;
+    
+}
+
+
+.tab-content{
+    display: none;
+}
+
+.elementsec2 .mainDiv.active{
+    display: block;
+}
+
+
+
+
+.tab-text{
+    display: none;
+
+}
+
+.tab-text.active{
+    display: block;
+}
+
+.vERTICAL-TABS .verTab{
+    border: none;
+    border: 2px solid gainsboro;
+    margin: 10px;
+}
+
+.sec6 input{
+    border: none;
+
+}
+.sec6 button{
+    border: none;
+}
+.contenier{
+    border-radius: 20px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px 5px;
+    margin-top: 250px;
+    margin-left: 500px;
+    text-align: center;
+}
+.sec6 div{
+    list-style: none;
+}
